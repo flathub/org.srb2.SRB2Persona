@@ -38,12 +38,18 @@
       <caption>Mutliplayer (Critical skill)</caption>
     </screenshot>
   </screenshots>
-  <url type="homepage">https://mb.srb2.org/addons/1-3-5-srb2-persona-multiplayer-demo.166</url>
+  <url type="homepage">https://mb.srb2.org/addons/1-3-6-srb2-persona-multiplayer-demo.166</url>
+  <url type="bugtracker">https://git.do.srb2.org/SinnamonLat/srb2p-public/-/issues</url>
+  <url type="help">https://discord.com/invite/UzU4xqM</url>
+  <url type="vcs-browser">https://git.do.srb2.org/SinnamonLat/srb2p-public</url>
   <developer_name>Lat'</developer_name>
   <provides>
     <binary>srb2persona</binary>
   </provides>
   <releases>
+    <release version="1.3.6" date="2023-05-13">
+      <url>https://mb.srb2.org/addons/1-3-6-srb2-persona-multiplayer-demo.166/update/9068</url>
+    </release>
     <release version="1.3.5" date="2022-05-29">
       <url>https://mb.srb2.org/addons/1-3-5-srb2-persona-multiplayer-demo.166/update/6216</url>
     </release>

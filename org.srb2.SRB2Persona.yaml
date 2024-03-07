@@ -100,7 +100,7 @@ modules:
     sources:
       - type: extra-data
         filename: Full.zip
-        url: https://github.com/riomccloud/srb2p-assets/releases/download/1.3.6/srb2p-assets.zip
+        url: https://github.com/flathub/org.srb2.SRB2Persona/releases/download/v1.3.6/srb2p-assets.zip
         sha256: 6309a48b621ccb9bcebdb270a90babe310af23242cbce08c7346517162f63a66
         size: 122026463
       - type: script

@@ -18,23 +18,23 @@
   <launchable type="desktop-id">org.srb2.SRB2Persona.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://mb.srb2.org/attachments/srb2p_wallpaper-jpg.22013</image>
+      <image>https://raw.githubusercontent.com/flathub/org.srb2.SRB2Kart-Saturn/refs/heads/master/screenshots/title-screen.jpg</image>
       <caption>Title screen</caption>
     </screenshot>
     <screenshot>
-      <image>https://mb.srb2.org/attachments/srb20534-png.22015</image>
+      <image>https://raw.githubusercontent.com/flathub/org.srb2.SRB2Kart-Saturn/refs/heads/master/screenshots/multiplayer-battle.png</image>
       <caption>Multiplayer (Battle)</caption>
     </screenshot>
     <screenshot>
-      <image>https://mb.srb2.org/attachments/srb20073-png.22018</image>
+      <image>https://raw.githubusercontent.com/flathub/org.srb2.SRB2Kart-Saturn/refs/heads/master/screenshots/multiplayer-tartarus.png</image>
       <caption>Multiplayer (Tartarus)</caption>
     </screenshot>
     <screenshot>
-      <image>https://mb.srb2.org/attachments/1635537586688-png.55758</image>
+      <image>https://raw.githubusercontent.com/flathub/org.srb2.SRB2Kart-Saturn/refs/heads/master/screenshots/multiplayer-void-run.png</image>
       <caption>Multiplayer (Void Run)</caption>
     </screenshot>
     <screenshot>
-      <image>https://mb.srb2.org/attachments/srb20548-png.22019</image>
+      <image>https://raw.githubusercontent.com/flathub/org.srb2.SRB2Kart-Saturn/refs/heads/master/screenshots/multiplayer-critical-skill.png</image>
       <caption>Mutliplayer (Critical skill)</caption>
     </screenshot>
   </screenshots>

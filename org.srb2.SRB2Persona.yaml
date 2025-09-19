@@ -1,6 +1,6 @@
 app-id: org.srb2.SRB2Persona
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: srb2persona
 finish-args:
@@ -61,9 +61,11 @@ modules:
         aarch64:
           env:
             ARCH_MAKE_ARGS: LINUX64=1
+            CFLAGS: -std=gnu11
         x86_64:
           env:
             ARCH_MAKE_ARGS: LINUX64=1 X86_64=1
+            CFLAGS: -std=gnu11
     build-commands:
       - make -C src -j $FLATPAK_BUILDER_N_JOBS NOUPX=1 SDL=1 $ARCH_MAKE_ARGS
       - install -D -m 755 -t $FLATPAK_DEST/bin bin/lsdl2srb2

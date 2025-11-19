@@ -1,10 +1,9 @@
 --- a/src/w_wad.h
 +++ b/src/w_wad.h
-@@ -185,6 +185,7 @@ UINT16 W_CheckNumForFolderStartPK3(const char *name, UINT16 wad, UINT16 startlu
- UINT16 W_CheckNumForFolderEndPK3(const char *name, UINT16 wad, UINT16 startlump);
- lumpnum_t W_CheckNumForFullNamePK3(const char *name, UINT16 wad, UINT16 startlump);
+@@ -172,6 +172,7 @@ lumpnum_t W_CheckNumForMap(const char *name);
+ lumpnum_t W_CheckNumForName(const char *name);
  lumpnum_t W_CheckNumForNameMusic(const char *name);
 +lumpnum_t W_GetNumForNameMusic(const char *name);
- size_t W_LumpLengthPwad(UINT16 wad, UINT16 lump);
- size_t W_LumpLength(lumpnum_t lumpnum);
- 
+ lumpnum_t W_CheckNumForLongName(const char *name);
+ lumpnum_t W_GetNumForName(const char *name); // like W_CheckNumForName but I_Error on LUMPERROR
+ lumpnum_t W_GetNumForLongName(const char *name);

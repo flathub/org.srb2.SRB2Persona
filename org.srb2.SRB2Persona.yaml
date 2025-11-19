@@ -80,6 +80,8 @@ modules:
         commit: 19e6daf275933e68648265c53760de1f77c2b2b2
       - type: patch
         path: srb2-gcc.patch
+      - type: patch
+        path: sdk25-fix.patch
       - type: script
         commands:
           - export SRB2WADDIR=/app/extra

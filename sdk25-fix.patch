@@ -1,0 +1,9 @@
+--- a/src/w_wad.h
++++ b/src/w_wad.h
+@@ -172,6 +172,7 @@ lumpnum_t W_CheckNumForMap(const char *name);
+ lumpnum_t W_CheckNumForName(const char *name);
+ lumpnum_t W_CheckNumForNameMusic(const char *name);
++lumpnum_t W_GetNumForNameMusic(const char *name);
+ lumpnum_t W_CheckNumForLongName(const char *name);
+ lumpnum_t W_GetNumForName(const char *name); // like W_CheckNumForName but I_Error on LUMPERROR
+ lumpnum_t W_GetNumForLongName(const char *name);

@@ -1,6 +1,6 @@
 app-id: org.srb2.SRB2Persona
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: srb2persona
 finish-args:
@@ -78,6 +78,8 @@ modules:
         commit: 19e6daf275933e68648265c53760de1f77c2b2b2
       - type: patch
         path: srb2-gcc.patch
+      - type: patch
+        path: sdk25-fix.patch
       - type: script
         commands:
           - export SRB2WADDIR=/app/extra
